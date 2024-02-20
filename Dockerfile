@@ -8,4 +8,6 @@ WORKDIR /home/container
 
 COPY ./entrypoint.sh /entrypoint.sh
 
+ENTRYPOINT []
+
 CMD ["/bin/bash", "/entrypoint.sh"]
